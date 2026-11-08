@@ -1,0 +1,75 @@
+/* 5. Terve lehe taustavärv */
+body {
+  background-color: #f4efe6;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/* 1. Lehe pealkiri */
+#pealkiri {
+  color: #8b2e16;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  color: #8b2e16;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  margin: 0 0 6px 0;
+}
+
+/* 2. Teksti kujundus */
+.tekst {
+  color: #333333;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  margin: 6px 0;
+}
+
+/* 3. Pildi raam ja vari */
+.pilt {
+  display: block;
+  max-width: 100%;
+  max-height: 260px;
+  height: auto;
+  margin: 8px auto;
+  border: 4px solid #8b2e16;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* 4. Tabeli kujundus */
+#programm {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#programm th {
+  background-color: #8b2e16;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px;
+}
+
+#programm td {
+  background-color: #ffffff;
+  padding: 6px;
+  border: 1px solid #8b2e16;
+}
+
+/* 6. Kaks tulpa */
+.tulbad {
+  display: flex;
+  gap: 30px;
+}
+
+.tulp {
+  flex: 1;
+}
